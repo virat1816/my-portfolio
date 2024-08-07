@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIRAT</title>
+    <link rel="icon" href="img/images.png" type="image/x-icon">
+    <link rel="shortcut icon" href="http://garvitdhameliya.com/image/gravity.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Virat</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#work" onclick="toggleMenu()">Work</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="data" style="padding-top: 60px;">
+            <div class="textBx" style="text-align: center;">
+                <h2 style="margin-bottom: 20px;">Hello, I'm<br><span>Virat Vamja</span></h2>
+                <h3 style="margin-bottom: 20px;">I'm a Full Stack Developer.</h3>
+                <a href="#about" class="btn" style="margin-bottom: 20px;">About Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50" style="align-self: center;">
+                <h3>I'm <br><span style="font-size: 40px;">Full Stack Developer.</span></h3>
+                <p style="font-size: 0.8em;">As a fresh full-stack developer, I bring a strong foundation in Node.js and
+                    React, with added expertise in MongoDB. Proficient in HTML, CSS, and JavaScript, I create reusable
+                    and maintainable code using React's component-based architecture and develop server-side applications and RESTful APIs with Node.js. My knowledge of MongoDB allows me to design scalable databases. Passionate about delivering exceptional user experiences, I am eager to learn, collaborate, and contribute to dynamic web projects.
+                </p>
+            </div>
+            <div class="w50 img-rounded" style="text-align: end;">
+                <img src="img/WhatsApp Image 2024-07-26 at 10.04.52_093f2e9b.jpg" class="img" alt="Virat Vamja">
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Services</h2>
+            <p>Detailing the technologies and tools I excel in to deliver comprehensive full-stack solutions.</p>
+        </div>
+        <div class="content row">
+            <div class="servicesBx">
+                <img src="https://img.icons8.com/ios/50/000000/web.png" alt="Web Development Icon">
+                <h2>Web Development</h2>
+                <p>Building dynamic and responsive web applications using HTML, CSS, JavaScript, and modern frameworks
+                    like React for an exceptional user experience.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="https://img.icons8.com/ios/50/000000/server.png" alt="Server-Side Development Icon">
+                <h2>Server-Side Development</h2>
+                <p>Developing robust server-side applications with Node.js, creating RESTful APIs, and ensuring
+                    efficient communication between the frontend and backend.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="https://img.icons8.com/ios/50/000000/database.png" alt="Database Management Icon">
+                <h2>Database Management</h2>
+                <p>Proficient in using MongoDB for database management, enabling scalable storage solutions and
+                    efficient querying for web applications.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="https://img.icons8.com/ios/50/000000/redux.png" alt="State Management Icon">
+                <h2>State Management</h2>
+                <p>Utilizing Redux and Redux-Saga for effective state management in complex applications, ensuring a
+                    smooth and consistent user experience.</p>
+            </div>
+            <div class="servicesBx">
+                <img src="https://img.icons8.com/ios/50/000000/key.png" alt="User Authentication Icon">
+                <h2>User Authentication</h2>
+                <p>Implementing secure user authentication and authorization mechanisms, ensuring that sensitive user
+                    data is protected and access is properly managed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>My Skills</h2>
+        </div>
+        <div class="skills-container">
+            <div class="col-6">
+                <div class="skill">
+                    <p>HTML <span>90%</span></p>
+                    <div class="skill-bar">
+                        <div class="skill-percentage html" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS <span>80%</span></p>
+                    <div class="skill-bar">
+                        <div class="skill-percentage css" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript <span>70%</span></p>
+                    <div class="skill-bar">
+                        <div class="skill-percentage js" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="skill">
+                    <p>React <span>75%</span></p>
+                    <div class="skill-bar">
+                        <div class="skill-percentage react" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Node.js <span>65%</span></p>
+                    <div class="skill-bar">
+                        <div class="skill-percentage node" style="width: 65%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>MongoDB <span>60%</span></p>
+                    <div class="skill-bar">
+                        <div class="skill-percentage mongodb" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Latest Work</h2>
+            <p>Showcasing a collection of my recent projects and accomplishments.</p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                <a href="https://github.com/virat1816/PROJECT-HTML-CSS-BOOTSTRAP-JQUERY.git" target="_blank">
+                    <div class="overlay">
+                        <img src="img/Screenshot 2024-07-26 125001.png" alt="Project 1">
+                        <div class="project-name">Project 1</div>
+                    </div>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://github.com/virat1816/PROJECT-HTML-CSS-BOOTSTRAP-JQUERY.git" target="_blank">
+                    <div class="overlay">
+                        <img src="img/Seppo (jquery).png" alt="Project 3">
+                        <div class="project-name">Project 3</div>
+                    </div>
+                </a>
+            </div>
+            <div class="workBx" style="width: 60%; height: 90%; margin: 0 auto;">
+                <a href="https://github.com/virat1816/PROJECT-HTML-CSS-BOOTSTRAP-JQUERY.git" target="_blank">
+                    <div class="overlay">
+                        <img src="img/Screenshot 2024-07-27 122547.png" alt="Project 2">
+                        <div class="project-name">Project 2</div>
+                    </div>
+                </a>
+            </div>
+            <!-- <div class="workBx">
+                <a href="https://github.com/virat1816/PROJECT-HTML-CSS-BOOTSTRAP-JQUERY.git" target="_blank">
+                    <div class="overlay">
+                        <img src="img/Screenshot 2024-07-27 122547.png" alt="Project 4">
+                        <div class="project-name">Project 4</div>
+                    </div>
+                </a>
+            </div>
+        </div> -->
+        <div class="heading">
+            <a href="https://github.com/virat1816" class="btn">View More</a>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact me</h2>
+            <p>Let's get you an estimate</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <a href="https://maps.app.goo.gl/FBqLs3Y447YHthE86" class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>A2 102<br>Sahajanand Residency<br>Surat</p>
+                        </div>
+                    </a>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <a href="tel:+918866180903">+91 8866180903</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <a href="mailto:viratpatel5880@gmail.com">viratpatel5880@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form action="#" method="post">
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class="social-media">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/virat-vamja-8a0b70262" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+            <p>© 2024 VIRAT VAMJA. All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        const toggleMenu = () => {
+            const menuToggle = document.querySelector('.toggle');
+            const menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+    
+</body>
+
+</html>
